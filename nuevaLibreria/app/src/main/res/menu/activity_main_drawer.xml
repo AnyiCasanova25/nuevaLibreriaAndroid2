@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/incio"
+            android:icon="@drawable/iuiu"
+            android:title="Incio" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/book_solid"
+            android:title="Libro" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/user_solid"
+            android:title="Usuario" />
+        <item
+            android:id="@+id/nav_prestamo"
+            android:icon="@drawable/window_restore_solid"
+            android:title="Prestamo" />
+        <item
+            android:id="@+id/nav_multa"
+            android:icon="@drawable/fax_solid"
+            android:title="Multa" />
+    </group>
+</menu>
